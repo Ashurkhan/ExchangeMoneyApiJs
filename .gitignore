@@ -1,0 +1,16 @@
+# Зависимости и сборка (не коммитить)
+node_modules/
+dist/
+dist-ssr/
+
+# Локальные и служебные
+*.local
+.env
+.env.*
+!.env.example
+
+# Логи
+*.log
+npm-debug.log*
+
+# Важно: .github НЕ игнорируем — там workflow для GitHub Pages

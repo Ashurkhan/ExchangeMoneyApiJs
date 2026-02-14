@@ -1,0 +1,126 @@
+.exchanger {
+  max-width: 420px;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.exchanger h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+}
+
+.exchanger .card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.exchanger .inputs {
+  margin-bottom: 1rem;
+}
+
+.exchanger .row {
+  margin-bottom: 1rem;
+}
+
+.exchanger .row:last-of-type {
+  margin-bottom: 0;
+}
+
+.exchanger label {
+  display: block;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.exchanger label span {
+  display: block;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0.25rem;
+}
+
+.exchanger input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.6rem 0.75rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+  color: inherit;
+}
+
+.exchanger select {
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(0, 0, 0, 0.2);
+  color: inherit;
+  min-width: 100px;
+}
+
+.exchanger .selects {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.exchanger .selects label {
+  flex: 1;
+  min-width: 100px;
+  margin-bottom: 0;
+}
+
+.exchanger .flag {
+  display: block;
+  margin-top: 0.35rem;
+  border-radius: 2px;
+}
+
+.exchanger .swap {
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+.exchanger .convert-btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+.exchanger .convert-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.exchanger .error {
+  color: #f88;
+  margin: 0.5rem 0;
+}
+
+.exchanger .result {
+  text-align: left;
+}
+
+.exchanger .result .rate {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 0 0.5rem 0;
+}
+
+.exchanger .result .total {
+  margin: 0;
+  font-size: 1.25rem;
+}
